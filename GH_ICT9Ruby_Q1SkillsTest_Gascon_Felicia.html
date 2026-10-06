@@ -1,0 +1,188 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+    </head>
+
+    <style>
+     
+     body {
+        background-image: url(https://i.pinimg.com/1200x/de/7f/e7/de7fe75acb0a91a96ddbb7c30ec6e662.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+     .main {
+        background-image: url(https://i.pinimg.com/736x/7d/09/19/7d0919bb2062fbd9a85aabade779eb65.jpg); 
+        background-size: cover; 
+        background-position: left; 
+        border-radius: 8px; 
+        overflow: hidden; 
+        padding: 2px 20px; 
+        width: 400px; 
+        max-width: 100%; 
+        height: auto; 
+        box-sizing: border-box; 
+        margin-left: 10px;
+     }
+
+     .header {
+        display: flex; 
+        justify-content: center;
+        text-align: center;
+     }
+
+     .title {
+        text-align: center;
+        color: rgb(17, 25, 113);
+        text-decoration: underline;
+     }
+
+     .description {
+        text-align: center;
+        color: rgb(62, 73, 84);
+        
+     }
+
+     .name {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+     }
+
+     .email {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+     }
+
+     .grade {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+     input [type="text"], textarea {
+         width: 70px;
+     }
+
+     .Gender{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+     .ending {
+        text-align: center;
+        color: rgb(22, 22, 117);
+     }
+
+     .activities {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+
+     .links {
+        color: rgb(15, 15, 86);
+        text-align: center;
+     }
+
+     .button-container {
+        text-align: center;
+       
+     }
+
+     .foot{
+        text-align: center;
+        color: aliceblue;
+     }
+
+
+
+    </style>
+
+    <body>
+    <form>
+
+  <!-- MAIN FORM -->
+        <div class="main">
+            <div class="header">
+                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/a23158c8-e745-46c5-9df6-a590c69c9c58/OBMC+-+60TH+LOGO+-+DIAMOND+SLOGAN+-+APPROVED+-+2026+FA_OBMC+-+COLOR+VERTICAL.png?format=500w" width="100">  
+            </div>
+
+            <h3 class="title"> OBMC Robotics Club Application Form</h3>
+            
+            <h6 class="description"> Welcome! Please fill out this form to apply for our school's Robotics Club </h6>
+            
+            <label class="name"> Full Name:</label> <br>
+
+            <input type="text" name="fullname">
+            <br>
+
+            <label class="email"> Email:</label> <br>
+            
+             <input type="text" name="email-addr">
+             <br>
+            
+             <label class="grade"> Grade Level:</label><br>
+
+             <select>
+                <option value="1"> Grade 7</option>
+                <option value="2"> Grade 8</option>
+                <option value="3"> Grade 9</option>
+                <option value="4"> Grade 10</option>
+             </select>
+             <br>
+
+             <label class="Gender"> Gender:</label> 
+             <input type="radio" id="male" name="gender" value="male">
+             <label for="male">Male</label>
+
+             <input type="radio" id="female" name="gender" value="female">
+             <label for="female">Female</label> <br>
+
+             <br>
+
+             <label class="name"> What are your skills?:</label><br>
+
+            <input type="checkbox" id="Coding" name="skill" value="coding">
+            <label for="Coding">Coding</label>
+
+            <input type="checkbox" id="Design" name="skill" value="design">
+            <label for="Design">Design</label>
+
+            <input type="checkbox" id="Electronics" name="skill" value="electronics">
+            <label for="Electronics">Electronics</label> <br>
+
+             <br>
+
+            
+            <label class="name"> Tell us why you want to join:</label><br>
+             <textarea class="textarea-input"  rows="4"></textarea><br>
+
+             <h5 class="ending"> Top Robotics Activities We Offer:</h5>
+
+             <ul>
+                <li class="activities"> Line Following Robots</li>
+                <li class="activities"> Obstacle Avoidance Programming</li>
+                <li class="activities"> Light Following Robot</li>
+             </ul>
+
+             <h5 class="links"> Helpful Links: </h5>
+             <ol>
+                <li><a href="https://robotics.org">Robotics.org</a></li>
+                <li><a href="https://firstinspires.org">FIRST Robotics</a></li>
+             </ol>
+             <br>
+
+             <div class="button-container">
+                <input type="submit" value="Submit Application">
+      </div>
+    </form>
+
+         </div>
+
+           
+
+         <Footer class="foot">© 2026 Robotics Club Application/ Created by Rapha Gascon 9-RUBY</Footer>
+    
+    </body>
+    </html>
+
+    
